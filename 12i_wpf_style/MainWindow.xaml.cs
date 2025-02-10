@@ -24,6 +24,7 @@ namespace _12i_wpf_style
     {
         public MainWindow()
         {
+            DataContext = this;
             InitializeComponent();
         }
 
